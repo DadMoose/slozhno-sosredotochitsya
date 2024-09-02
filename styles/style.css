@@ -47,7 +47,6 @@
 
 .decorated-zone {
   position: relative;
-
 }
 
 .decorated-zone::before {
@@ -176,7 +175,6 @@
 .content__picture {
   object-fit: cover;
   inline-size: 100%;
-
 }
 
 .footer {

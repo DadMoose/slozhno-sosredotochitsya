@@ -4,7 +4,7 @@
 */
 
 :root {
-  --main-font: 'IBM Plex mono', sans-serif;
+  --main-font: "IBM Plex mono", sans-serif;
   --font-size: 18px;
   --bg-image: url(../images/cover-image-dark.png);
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -12,8 +12,8 @@
   --accent-color: #ff0070;
   --rec-display: block;
   --decoration-color-opacity-40: rgba(255, 0, 112, 0.4);
-  --text-color: #F1B2CE;
-  --heading-color: #DB00FF;
+  --text-color: #f1b2ce;
+  --heading-color: #db00ff;
   --decoration-color: var(--accent-color);
   --content-section-title-color: var(--accent-color);
   --paragraph-title-color: var(--bg-color);
@@ -25,12 +25,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-     /* вторая секция */
+  /* вторая секция */
 
-     .what .content-section__title {
-      display: block;
-      max-width: 236px;
-    }
+  .what .content-section__title {
+    display: block;
+    max-width: 236px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -47,14 +47,14 @@
     display: grid;
     column-gap: var(--space-m);
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4 , auto);
+    grid-template-rows: repeat(4, auto);
   }
 
   .why .content-section__title {
     grid-row: span 4;
   }
 
-   .why .content__paragraph-title:first-of-type{
+  .why .content__paragraph-title:first-of-type {
     margin: 0;
   }
 
@@ -70,7 +70,6 @@
     column-gap: var(--space-m);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(11, auto);
-
   }
 
   .how .content-section__title {
@@ -104,20 +103,18 @@
 
   .ice-cream-image {
     block-size: 100%;
-    grid-row: span 2;  
+    grid-row: span 2;
   }
 
   .tape-image {
     block-size: 100%;
-    grid-row: span 2;  
+    grid-row: span 2;
   }
 
   .street-image {
     grid-column: span 2;
   }
-
 }
-
 
 @media (min-width: 1024px) {
   /* вторая секция */
@@ -126,7 +123,7 @@
     display: grid;
     column-gap: var(--space-m);
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3 , auto);
+    grid-template-rows: repeat(3, auto);
     grid-auto-flow: column;
   }
 
