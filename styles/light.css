@@ -13,10 +13,10 @@
   --accent-color: #ff8dcb;
   --text-color: #353430;
   --heading-color: #FFC2E6;
+  --decoration-color-opacity-40: rgba(53, 52, 48, 0.4);
   --content-section-title-color: var(--text-color);
   --paragraph-title-color: var(--text-color);
+  --decoration-color: var(--text-color);
   --bg-image: url(../images/cover-image-light.png);
   --rec-display: none;
-  --decoration-color: var(--text-color);
-  --decoration-color-opacity-40: rgba(53, 52, 48, 0.4);
 }
