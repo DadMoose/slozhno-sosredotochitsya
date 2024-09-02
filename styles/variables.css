@@ -25,7 +25,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* вторая секция */
+    /* вторая секция */
 
   .what .content-section__title {
     display: block;
@@ -87,6 +87,7 @@
   }
 
   /* четвёртая секция */
+
   .in-picture {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -117,6 +118,10 @@
 }
 
 @media (min-width: 1024px) {
+  .header__subtitle {
+    min-inline-size: 491px;
+  }
+  
   /* вторая секция */
 
   .what {

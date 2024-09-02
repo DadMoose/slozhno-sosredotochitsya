@@ -117,6 +117,7 @@
 
 .header__subtitle {
   font-weight: bold;
+  max-inline-size: 364px;
 }
 
 .content {
