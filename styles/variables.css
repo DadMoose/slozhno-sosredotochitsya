@@ -24,15 +24,6 @@
   --space-xl: 50px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* вторая секция */
-
-  .what .content-section__title {
-    display: block;
-    max-width: 236px;
-  }
-}
-
 @media (min-width: 768px) {
   :root {
     --title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -77,6 +68,13 @@
   .why .content__paragraph-title {
     grid-column: 2 / 4;
   }
+
+    /* вторая секция */
+
+    .what .content-section__title {
+      /* display: block; */
+      max-inline-size: 236px;
+    }
 
   /* третья секция */
 
@@ -171,5 +169,6 @@
 
   .what .content-section__title {
     grid-column: span 3;
+    max-inline-size: initial;
   }
 }
