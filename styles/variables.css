@@ -151,15 +151,12 @@
 
   .header__subtitle {
     inset-block-end: 29px;
+    min-inline-size: 491px;
   }
 
   .header__title {
     position: relative;
     inset-inline-end: 20px;
-  }
-
-  .header__subtitle {
-    min-inline-size: 491px;
   }
 
   /* вторая секция */
