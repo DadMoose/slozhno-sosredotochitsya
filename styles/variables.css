@@ -25,7 +25,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    /* вторая секция */
+  /* вторая секция */
 
   .what .content-section__title {
     display: block;
@@ -41,13 +41,28 @@
     --space-xl: 80px;
   }
 
+  /* шапка */
+
+  .header__theme-menu-list {
+    inset-block-start: 55px;
+  }
+
+  .header__subtitle {
+    inset-block-end: 57px;
+  }
+
+  .header__title {
+    position: relative;
+    inset-inline-end: 20px;
+  }
+
   /* первая секция */
 
   .why {
     display: grid;
-    column-gap: var(--space-m);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
+    column-gap: var(--space-m);
   }
 
   .why .content-section__title {
@@ -67,9 +82,9 @@
 
   .how {
     display: grid;
-    column-gap: var(--space-m);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(237px, 1fr) 1fr 1fr;
     grid-template-rows: repeat(11, auto);
+    column-gap: var(--space-m);
   }
 
   .how .content-section__title {
@@ -103,13 +118,13 @@
   }
 
   .ice-cream-image {
-    block-size: 100%;
     grid-row: span 2;
+    block-size: 100%;
   }
 
   .tape-image {
-    block-size: 100%;
     grid-row: span 2;
+    block-size: 100%;
   }
 
   .street-image {
@@ -118,18 +133,43 @@
 }
 
 @media (min-width: 1024px) {
+  /* шапка */
+
+  .header__theme-menu {
+    justify-self: center;
+    align-self: start;
+  }
+
+  .header__theme-menu-list {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-s);
+    align-self: auto;
+    inset-block-start: 0;
+  }
+
+  .header__subtitle {
+    inset-block-end: 29px;
+  }
+
+  .header__title {
+    position: relative;
+    inset-inline-end: 20px;
+  }
+
   .header__subtitle {
     min-inline-size: 491px;
   }
-  
+
   /* вторая секция */
 
   .what {
     display: grid;
-    column-gap: var(--space-m);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-auto-flow: column;
+    column-gap: var(--space-m);
   }
 
   .what .content-section__title {

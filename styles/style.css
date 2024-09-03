@@ -69,8 +69,11 @@
 }
 
 .header__theme-menu-list {
-  display: grid;
+  position: relative;
+  display: flex;
+  flex-direction: column;
   gap: var(--space-s);
+  inset-block-start: 4px;
 }
 
 .header__theme-menu-button {
@@ -113,8 +116,10 @@
 }
 
 .header__subtitle {
+  position: relative;
   font-weight: bold;
   max-inline-size: 364px;
+  inset-block-end: 6px;
 }
 
 .content {
@@ -142,6 +147,7 @@
 
 .content__paragraph {
   margin-block-start: var(--space-s);
+  line-height: 130%;
 }
 
 .content-link {
@@ -180,9 +186,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block-start: var(--space-l);
   block-size: 100vh;
   min-block-size: 647px;
-  margin-block-start: var(--space-l);
 }
 
 .footer__heading {
