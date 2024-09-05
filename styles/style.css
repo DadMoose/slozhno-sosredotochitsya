@@ -217,13 +217,13 @@
     inset-block-start: 55px;
   }
 
-  .header__subtitle {
-    inset-block-end: 57px;
-  }
-
   .header__title {
     position: relative;
     inset-inline-end: 20px;
+  }
+
+  .header__subtitle {
+    inset-block-end: 57px;
   }
 
   /* первая секция */
@@ -258,7 +258,6 @@
   /* четвёртая секция */
 
   .in-picture {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
   }
@@ -296,9 +295,7 @@
 
   .header__theme-menu-list {
     position: static;
-    display: flex;
     flex-direction: row;
-    gap: var(--space-s);
     align-self: auto;
     inset-block-start: 0;
   }
@@ -308,11 +305,6 @@
     min-inline-size: 491px;
   }
 
-  .header__title {
-    position: relative;
-    inset-inline-end: 20px;
-  }
-
   /* первая секция */
 
   .why {
@@ -320,11 +312,6 @@
   }
 
   /* вторая секция */
-
-  .what {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-  }
 
   .what .content-section__title {
     grid-column: 1 / 4;
